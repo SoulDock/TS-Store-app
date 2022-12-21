@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import { IProduct } from '../models'
 
-
 interface ProductProps {
-  product: IProduct
+  product: IProduct,
 }
 
 export function Product({product} :ProductProps) {
